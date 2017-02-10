@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/rue0003a/develop/intended-sample-error/app/build/intermediates/res/merged/debug/layout/activity_dialer.xml",
+        "source": "/Users/rue0003a/develop/intended-sample-error/app/src/main/res/layout/activity_dialer.xml"
+    },
+    {
+        "merged": "/Users/rue0003a/develop/intended-sample-error/app/build/intermediates/res/merged/debug/layout/activity_contacts.xml",
+        "source": "/Users/rue0003a/develop/intended-sample-error/app/src/main/res/layout/activity_contacts.xml"
+    },
+    {
+        "merged": "/Users/rue0003a/develop/android-testing/ui/espresso/IntentsBasicSample/app/build/intermediates/res/merged/debug/layout/activity_dialer.xml",
+        "source": "/Users/rue0003a/develop/android-testing/ui/espresso/IntentsBasicSample/app/src/main/res/layout/activity_dialer.xml"
+    },
+    {
+        "merged": "/Users/rue0003a/develop/android-testing/ui/espresso/IntentsBasicSample/app/build/intermediates/res/merged/debug/layout/activity_contacts.xml",
+        "source": "/Users/rue0003a/develop/android-testing/ui/espresso/IntentsBasicSample/app/src/main/res/layout/activity_contacts.xml"
+    },
+    {
+        "merged": "/Users/rue0003a/develop/intended-sample-error/app/build/intermediates/res/merged/debug/layout/activity_weblink.xml",
+        "source": "/Users/rue0003a/develop/intended-sample-error/app/src/main/res/layout/activity_weblink.xml"
+    },
+    {
+        "merged": "/Users/rue0003a/develop/android-testing/ui/espresso/IntentsBasicSample/app/build/intermediates/res/merged/debug/layout/activity_weblink.xml",
+        "source": "/Users/rue0003a/develop/android-testing/ui/espresso/IntentsBasicSample/app/src/main/res/layout/activity_weblink.xml"
+    }
+]
