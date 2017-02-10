@@ -20,10 +20,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
+import android.support.test.espresso.intent.rule.IntentsTestRule;
 import android.support.test.filters.LargeTest;
 import android.support.test.runner.AndroidJUnit4;
 
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -50,7 +52,10 @@ import static org.hamcrest.core.AllOf.allOf;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest
-public class DialerActivityTest extends BaseInstrumentationTest<DialerActivity> {
+public class WorkingDialerActivityTest {
+
+    @Rule
+    IntentsTestRule<DialerActivity> mIntentsTestRule = new IntentsTestRule<>(DialerActivity.class);
 
     private static final String VALID_PHONE_NUMBER = "123-345-6789";
 
@@ -65,9 +70,6 @@ public class DialerActivityTest extends BaseInstrumentationTest<DialerActivity> 
         }
     }
 
-    public DialerActivityTest() {
-        super(DialerActivity.class);
-    }
 
     @Before
     public void stubAllExternalIntents() {
